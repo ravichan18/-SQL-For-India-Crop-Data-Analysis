@@ -3,7 +3,7 @@ import sqlite3
 from numerize import numerize
 import pandas as pd
 
-df = pd.read_csv('Data.csv')
+df = pd.read_csv('India_Crop.csv')
 
 states = list(df['State_Name'].unique())
 
